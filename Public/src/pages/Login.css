@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e91e63;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  input:focus {
+    background-color: #444;
+    box-shadow: 0 0 5px #e91e63;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #d81b60;
+  }
+  
+  .error {
+    color: #ff5252;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
